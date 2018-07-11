@@ -1,0 +1,11 @@
+framework module BarPullButtonItem {
+  umbrella header "BarPullButtonItem.h"
+
+  export *
+  module * { export * }
+}
+
+module BarPullButtonItem.Swift {
+    header "BarPullButtonItem-Swift.h"
+    requires objc
+}
