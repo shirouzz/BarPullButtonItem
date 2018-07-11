@@ -2,7 +2,7 @@
 //  BasePullButton.swift
 //  BarPullButtonItem
 //
-//  Created by Tatsuya Shirouzu on 2018/07/07.
+//  Created by Shirouzu on 2018/07/07.
 //  Copyright © 2018年 Shirouzu. All rights reserved.
 //
 

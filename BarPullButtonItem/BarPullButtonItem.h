@@ -2,8 +2,8 @@
 //  BarPullButtonItem.h
 //  BarPullButtonItem
 //
-//  Created by Tatsuya Shirouzu on 2018/07/06.
-//  Copyright © 2018年 Tatsuya Shirouzu. All rights reserved.
+//  Created by Shirouzu on 2018/07/06.
+//  Copyright © 2018年 Shirouzu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -2,8 +2,8 @@
 //  PullButton.swift
 //  BarPullButtonItem
 //
-//  Created by Tatsuya Shirouzu on 2018/07/07.
-//  Copyright © 2018年 Tatsuya Shirouzu. All rights reserved.
+//  Created by Shirouzu on 2018/07/07.
+//  Copyright © 2018年 Shirouzu. All rights reserved.
 //
 
 import Foundation
