@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270F1D9820F5E52F0024EE84 /* BarPullButtonItem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270F1D9620F5E4E00024EE84 /* BarPullButtonItem.framework */; };
+		270F1D9920F5E52F0024EE84 /* BarPullButtonItem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 270F1D9620F5E4E00024EE84 /* BarPullButtonItem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		27618AA720F0817900C46CFF /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27618AA620F0817800C46CFF /* NavController.swift */; };
 		27618AAB20F081A600C46CFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27618AAA20F081A600C46CFF /* ViewController.swift */; };
-		276A398E20F58EE5004841AE /* BarPullButtonItem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276A398D20F58EE5004841AE /* BarPullButtonItem.framework */; };
 		27E3F56520EF802800FEF5DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E3F56420EF802800FEF5DD /* AppDelegate.swift */; };
 		27E3F56A20EF802800FEF5DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E3F56820EF802800FEF5DD /* Main.storyboard */; };
 		27E3F56C20EF803200FEF5DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E3F56B20EF803200FEF5DD /* Assets.xcassets */; };
@@ -17,12 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2764F6B120F4CAD1003D7FB1 /* Embed Frameworks */ = {
+		270F1D9A20F5E52F0024EE84 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				270F1D9920F5E52F0024EE84 /* BarPullButtonItem.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -30,9 +32,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		270F1D9620F5E4E00024EE84 /* BarPullButtonItem.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BarPullButtonItem.framework; path = Carthage/Build/iOS/BarPullButtonItem.framework; sourceTree = "<group>"; };
 		27618AA620F0817800C46CFF /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
 		27618AAA20F081A600C46CFF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		276A398D20F58EE5004841AE /* BarPullButtonItem.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BarPullButtonItem.framework; path = Carthage/Build/iOS/BarPullButtonItem.framework; sourceTree = "<group>"; };
 		27E3F56120EF802800FEF5DD /* BarPullButtonItemExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarPullButtonItemExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E3F56420EF802800FEF5DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E3F56920EF802800FEF5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				276A398E20F58EE5004841AE /* BarPullButtonItem.framework in Frameworks */,
+				270F1D9820F5E52F0024EE84 /* BarPullButtonItem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +58,7 @@
 		27618AB720F0849100C46CFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				276A398D20F58EE5004841AE /* BarPullButtonItem.framework */,
+				270F1D9620F5E4E00024EE84 /* BarPullButtonItem.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,8 +104,8 @@
 				27E3F55D20EF802800FEF5DD /* Sources */,
 				27E3F55E20EF802800FEF5DD /* Frameworks */,
 				27E3F55F20EF802800FEF5DD /* Resources */,
-				2764F6B120F4CAD1003D7FB1 /* Embed Frameworks */,
 				276A398C20F58DCD004841AE /* ShellScript */,
+				270F1D9A20F5E52F0024EE84 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,9 +169,9 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/BarPullButtonItem.framework",
 			);
 			outputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/BarPullButtonItem.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
