@@ -48,7 +48,7 @@ func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate deceler
 }
 ```
 
-### PullButton & SecondPullButton Options
+### PullButton & SpringPullButton Properties
 animationDuration : Press animation duration. 
 ```swift
 var animationDuration = 0.2
