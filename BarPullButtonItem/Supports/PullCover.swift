@@ -23,7 +23,6 @@ public class PullCover: UIImageView {
         
         isHidden = true
         
-        frame.size = initSize
         self.backgroundColor = backgroundColor
         self.tintColor = tintColor
         self.image = image.withRenderingMode(.alwaysTemplate)

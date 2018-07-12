@@ -6,13 +6,11 @@ Inspired by Bear. ( http://www.bear-writer.com )
 
 Left : PullButton  
 Moving like RefreshControl.   
-Cover height is determined by distance from first y or drag start y.  
 
 Right : SpringPullButton  
 Covering 1/3 distance when scrolling without dragging.  
 Users easier to aware to cover than PullButton.  
 But, this might the eyesore.   
-Cover height is determined by distance from first y.  
 
 ## Installation
 ### Carthage
