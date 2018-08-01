@@ -14,7 +14,7 @@ public class BasePullButton: UIButton {
     internal var isStopCovering = false
     
     // MARK: Enter Animation Property
-    public var actionAfterAnimation = false
+    public var isActAfterAnime = false
     public var animationDuration = 0.2
     
     // MARK; Scroll Cover Property

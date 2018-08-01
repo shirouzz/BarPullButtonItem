@@ -51,11 +51,11 @@ animationDuration : Press animation duration.
 ```swift
 var animationDuration = 0.2
 ```
-actionBeforeAnimation:  
+isActAfterAnime:  
 false is ( Button Action -> Press Animation )  
 true is ( Press Animation Completion -> Button Action )
 ```swift
-var actionAfterAnimation = false
+var isActAfterAnime = false
 ```
 
 initY : Content offset y to start covering.  

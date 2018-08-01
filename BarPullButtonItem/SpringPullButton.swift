@@ -56,12 +56,12 @@ public class SpringPullButton: BasePullButton {
         if y <= initY+distanceToPress {
             isStopCovering = true
             
-            if !actionAfterAnimation {
+            if !isActAfterAnime {
                 self.sendActions(for: .touchUpInside)
             }
             
             cover?.pressAnimation(duration: animationDuration) {
-                if self.actionAfterAnimation {
+                if self.isActAfterAnime {
                     self.sendActions(for: .touchUpInside)
                 }
             }
