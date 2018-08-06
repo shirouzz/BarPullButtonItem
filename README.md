@@ -27,7 +27,6 @@ let pullButton = PullButton(image: UIImage(named: "x")!, coverColor: UIColor.x, 
 
 override func viewDidLoad() {
     super.viewDidLoad()
-    
     pullButton.addTarget(self, action: Selector, for: .touchUpInside)
     let pullItem = UIBarButtonItem(customView: pullButton)
     navigationItem.leftBarButtonItem = pullItem
@@ -47,10 +46,11 @@ func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate deceler
 ```
 
 ### PullButton & SpringPullButton Properties
-animationDuration : Press animation duration. 
+animeDuration : Press animation duration. 
 ```swift
 var animationDuration = 0.2
 ```
+
 isActAfterAnime:  
 false is ( Button Action -> Press Animation )  
 true is ( Press Animation Completion -> Button Action )
@@ -59,7 +59,7 @@ var isActAfterAnime = false
 ```
 
 initY : Content offset y to start covering.  
-If you hide status bar, change value to -44.  (44 is navigationBar height.)
+If you hide status bar, change value to -44.  (44 is NavigationBar height.)
 ```swift
 var initY = -(UIApplication.shared.statusBarFrame.height+44)
 ```

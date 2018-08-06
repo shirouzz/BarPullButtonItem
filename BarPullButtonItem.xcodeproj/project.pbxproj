@@ -13,6 +13,7 @@
 		27618A6720EFB77E00C46CFF /* PullCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27618A6520EFB77D00C46CFF /* PullCover.swift */; };
 		27618A9E20F0734400C46CFF /* BasePullButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27618A9D20F0734400C46CFF /* BasePullButton.swift */; };
 		27618AA020F0788000C46CFF /* SpringPullButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27618A9F20F0788000C46CFF /* SpringPullButton.swift */; };
+		27BB06172118A67900CF18C5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 27BB06162118A67900CF18C5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		27618A6520EFB77D00C46CFF /* PullCover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullCover.swift; sourceTree = "<group>"; };
 		27618A9D20F0734400C46CFF /* BasePullButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePullButton.swift; sourceTree = "<group>"; };
 		27618A9F20F0788000C46CFF /* SpringPullButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringPullButton.swift; sourceTree = "<group>"; };
+		27BB06162118A67900CF18C5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		27618A4020EFB74800C46CFF = {
 			isa = PBXGroup;
 			children = (
+				27BB06162118A67900CF18C5 /* README.md */,
 				27618A4C20EFB74800C46CFF /* BarPullButtonItem */,
 				27618A4B20EFB74800C46CFF /* Products */,
 			);
@@ -185,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27BB06172118A67900CF18C5 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

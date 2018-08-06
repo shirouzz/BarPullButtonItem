@@ -11,11 +11,6 @@ import UIKit
 public class BasePullButton: UIButton {
     
     internal var cover: PullCover?
-    internal var isStopCovering = false
-    
-    // MARK: Enter Animation Property
-    public var isActAfterAnime = false
-    public var animationDuration = 0.2
     
     // MARK; Scroll Cover Property
     public var initY = -(UIApplication.shared.statusBarFrame.height+44)

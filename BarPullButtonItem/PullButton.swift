@@ -14,12 +14,17 @@ import UIKit
  */
 public class PullButton: BasePullButton {
     
+    // MARK: Properties for pressing animation
+    private var isHideCover = false
+    public var isActAfterAnime = false
+    public var animeDuration = 0.2
+    
     // MARK:- Scroll Cover
     private var beginCoverY: CGFloat = -10000
     private var releaseY: CGFloat = -10000
     
     public func beginDragging(y: CGFloat){
-        isStopCovering = false
+        isHideCover = false
         if beginCoverY <= y{
             beginCoverY = min(y, initY)
         }
@@ -27,7 +32,7 @@ public class PullButton: BasePullButton {
     }
     
     public func didScroll(y: CGFloat){
-        if isStopCovering {return}
+        if isHideCover {return}
         if releaseY > beginCoverY{
             cover?.isHidden = true
             beginCoverY = -10000
@@ -56,13 +61,13 @@ public class PullButton: BasePullButton {
         if (cover?.isHidden)! {return}
         
         if y <= beginCoverY+distanceToPress {
-            isStopCovering = true
+            isHideCover = true
             
             if !isActAfterAnime {
                 self.sendActions(for: .touchUpInside)
             }
             
-            cover?.pressAnimation(duration: animationDuration) {
+            cover?.pressAnimation(duration: animeDuration) {
                 if self.isActAfterAnime {
                     self.sendActions(for: .touchUpInside)
                 }
