@@ -22,7 +22,7 @@ github "shirouzz/BarPullButtonItem" "master"
 ## Usage
 In your TableViewController or ViewController
 ```swift
-let pullButton = PullButton(image: UIImage(named: "x")!, coverColor: UIColor.x, coverImageColor: UIColor.x)
+let pullButton = PullButton(image: UIImage(named: "hoge")!, coverColor: UIColor.hoge, coverImageColor: UIColor.hoge)
 // or SpringPullButton(same...)
 
 override func viewDidLoad() {

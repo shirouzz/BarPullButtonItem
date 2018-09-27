@@ -25,7 +25,7 @@ public class PullButton: BasePullButton {
     
     public func beginDragging(y: CGFloat){
         isHideCover = false
-        if beginCoverY <= y{
+        if beginCoverY <= y {
             beginCoverY = min(y, initY)
         }
         releaseY = -10000
@@ -79,7 +79,4 @@ public class PullButton: BasePullButton {
     
     
 }
-
-
-
 
